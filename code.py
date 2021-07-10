@@ -4,6 +4,7 @@ computer = random.choice(choices)
 player = False
 cpu_score = 0
 player_score = 0
+print("Type 'End' to get stop the game and check score")
 while True:
     player = input("Rock, Paper or  Scissors?"+"\n").capitalize()
     #Conditions of Rock,Paper and Scissors
